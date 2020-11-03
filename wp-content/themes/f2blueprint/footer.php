@@ -5,13 +5,15 @@
       <div class="group">
          <p class="text-center pb-3">
           <a href="<?php echo site_url(); ?>">
-            <img src="<?php echo get_theme_file_uri('/images/cch-logo.png'); ?>" alt="Portuguese Association" style="width: 11rem">
+            <img src="<?php echo get_theme_file_uri('/images/cch-logo.png'); ?>" alt="The Concierge Hub" style="width: 11rem">
           </a>
            </p>
         </div>
         <div class="group">
-          <div class="site-footer__col-one pt-3">
-            <img src="<?php echo get_theme_file_uri('/images/by-aurora.png'); ?>" alt="Portuguese Association" style="width: 11rem">
+          <div class="site-footer__col-one pt-3 pb-5">
+            <a href="https://www.aurora-agency.com">
+              <img src="<?php echo get_theme_file_uri('/images/by-aurora.png'); ?>" alt="The Concierge Hub" style="width: 11rem">
+            </a>
             <!-- <p><a class="site-footer__link" href="tel:+971 55 5959935">+971 55 5959935</a></p> -->
             
           </div>

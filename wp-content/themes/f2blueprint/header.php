@@ -11,7 +11,8 @@
 <body <?php body_class(); ?>>
    <header class="site-header">
       <div class="container">
-      <a href="<?php echo site_url(); ?>"><img src="<?php echo get_theme_file_uri('/images/ch-logo-notext-wh.png'); ?>" alt="Portuguese Association" style="width: 3rem"></a>
+      <!-- <a href="<?php echo site_url(); ?>"><img src="<?php echo get_theme_file_uri('/images/ch-logo-notext-wh.png'); ?>" alt="The Concierge Hub" style="width: 3rem"></a> -->
+      <a href="<?php echo site_url("/welcome"); ?>"><img src="<?php echo get_theme_file_uri('/images/ch-logo-notext-wh.png'); ?>" alt="The Concierge Hub" style="width: 3rem"></a>
         <!-- <div class="select-lang">
           <span class="t-center pl-3 strong">Select Language</span> 
 
