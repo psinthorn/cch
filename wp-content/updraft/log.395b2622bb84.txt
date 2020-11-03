@@ -1,0 +1,348 @@
+0000.000 (0) Opened log file at time: Tue, 03 Nov 2020 00:38:29 +0000 on http://localhost:10043
+0000.002 (0) UpdraftPlus WordPress backup plugin (https://updraftplus.com): 1.16.34 WP: 5.5.3 PHP: 7.3.5 (fpm-fcgi, Darwin psinthorn-macbook.local 19.5.0 Darwin Kernel Version 19.5.0: Tue May 26 20:41:44 PDT 2020; root:xnu-6153.121.2~2/RELEASE_X86_64 x86_64) MySQL: 8.0.16 WPLANG: en_US Server: nginx/1.16.0 safe_mode: 0 max_execution_time: 900 memory_limit: 256M (used: 6.8M | 2M) multisite: N openssl: OpenSSL 1.1.1g  21 Apr 2020 mcrypt: N LANG:  ZipArchive::addFile: Y
+0000.004 (0) Free space on disk containing Updraft's temporary directory: 2147.2 MB
+0000.007 (0) Tasks: Backup files: 1 (schedule: daily) Backup DB: 1 (schedule: daily)
+0000.012 (0) Requesting semaphore lock (fd) (apparently not via scheduler)
+0000.016 (0) Set semaphore last lock (fd) time to 2020-11-03 00:38:29
+0000.017 (0) Semaphore lock (fd) complete
+0000.021 (0) Backup run: resumption=0, nonce=395b2622bb84, file_nonce=395b2622bb84 begun at=1604363909 (0s ago), job type=backup
+0000.023 (0) Scheduling a resumption (1) after 300 seconds (1604364209) in case this run gets aborted
+0000.035 (0) Checking if we have a zip executable available
+0000.037 (0) Testing: /usr/bin/zip
+0000.046 (0) Output: zip warning: binziptest/test.zip not found or empty
+0000.047 (0) Output: adding: binziptest/subdir1/	(in=0) (out=0) (stored 0%)
+0000.049 (0) Output: adding: binziptest/subdir1/subdir2/	(in=0) (out=0) (stored 0%)
+0000.050 (0) Output: adding: binziptest/subdir1/subdir2/test.html	(in=131) (out=107) (deflated 18%)
+0000.051 (0) Output: total bytes=131, compressed=107 -> 18% savings
+0000.061 (0) Output: adding: binziptest/subdir1/subdir2/test2.html	(in=138) (out=113) (deflated 18%)
+0000.063 (0) Output: total bytes=269, compressed=220 -> 18% savings
+0000.065 (0) Working binary zip found: /usr/bin/zip
+0000.068 (0) Zip engine: found/will use a binary zip: /usr/bin/zip
+0000.069 (0) Creation of backups of directories: beginning
+0000.073 (0) Beginning creation of dump of plugins (split every: 25 MB)
+0000.358 (0) Total entities for the zip file: 497 directories, 2963 files (0 skipped as non-modified), 42.5 MB
+0000.377 (0) Zip: backup_2020-11-03-0038_The_Concierge_Hub_395b2622bb84-plugins.zip.tmp: 100 files added (on-disk size: 0 KB)
+0000.397 (0) Zip: backup_2020-11-03-0038_The_Concierge_Hub_395b2622bb84-plugins.zip.tmp: 200 files added (on-disk size: 0 KB)
+0000.413 (0) Zip: backup_2020-11-03-0038_The_Concierge_Hub_395b2622bb84-plugins.zip.tmp: 300 files added (on-disk size: 0 KB)
+0000.429 (0) Zip: backup_2020-11-03-0038_The_Concierge_Hub_395b2622bb84-plugins.zip.tmp: 400 files added (on-disk size: 0 KB)
+0000.446 (0) Zip: backup_2020-11-03-0038_The_Concierge_Hub_395b2622bb84-plugins.zip.tmp: 500 files added (on-disk size: 0 KB)
+0000.448 (0) Adding batch to zip file (UpdraftPlus_BinZip): over 500 files added on this batch (10.9 MB, 2963 files batched, 501 (501) added so far); re-opening (prior size: 0 KB)
+0001.097 (0) backup_2020-11-03-0038_The_Concierge_Hub_395b2622bb84-plugins.zip.tmp: size is now: 3.20 MB
+0001.114 (0) Zip: backup_2020-11-03-0038_The_Concierge_Hub_395b2622bb84-plugins.zip.tmp: 600 files added (on-disk size: 3307 KB)
+0001.131 (0) Zip: backup_2020-11-03-0038_The_Concierge_Hub_395b2622bb84-plugins.zip.tmp: 700 files added (on-disk size: 3307 KB)
+0001.147 (0) Zip: backup_2020-11-03-0038_The_Concierge_Hub_395b2622bb84-plugins.zip.tmp: 800 files added (on-disk size: 3307 KB)
+0001.163 (0) Zip: backup_2020-11-03-0038_The_Concierge_Hub_395b2622bb84-plugins.zip.tmp: 900 files added (on-disk size: 3307 KB)
+0001.179 (0) Zip: backup_2020-11-03-0038_The_Concierge_Hub_395b2622bb84-plugins.zip.tmp: 1000 files added (on-disk size: 3307 KB)
+0001.181 (0) Adding batch to zip file (UpdraftPlus_BinZip): over 500 files added on this batch (1.9 MB, 2963 files batched, 501 (1002) added so far); re-opening (prior size: 3307 KB)
+0001.419 (0) backup_2020-11-03-0038_The_Concierge_Hub_395b2622bb84-plugins.zip.tmp: size is now: 3.90 MB
+0001.438 (0) Zip: backup_2020-11-03-0038_The_Concierge_Hub_395b2622bb84-plugins.zip.tmp: 1100 files added (on-disk size: 4044.1 KB)
+0001.454 (0) Zip: backup_2020-11-03-0038_The_Concierge_Hub_395b2622bb84-plugins.zip.tmp: 1200 files added (on-disk size: 4044.1 KB)
+0001.470 (0) Zip: backup_2020-11-03-0038_The_Concierge_Hub_395b2622bb84-plugins.zip.tmp: 1300 files added (on-disk size: 4044.1 KB)
+0001.486 (0) Zip: backup_2020-11-03-0038_The_Concierge_Hub_395b2622bb84-plugins.zip.tmp: 1400 files added (on-disk size: 4044.1 KB)
+0001.503 (0) Zip: backup_2020-11-03-0038_The_Concierge_Hub_395b2622bb84-plugins.zip.tmp: 1500 files added (on-disk size: 4044.1 KB)
+0001.505 (0) Adding batch to zip file (UpdraftPlus_BinZip): over 500 files added on this batch (5.8 MB, 2963 files batched, 501 (1503) added so far); re-opening (prior size: 4044.1 KB)
+0001.873 (0) backup_2020-11-03-0038_The_Concierge_Hub_395b2622bb84-plugins.zip.tmp: size is now: 6.10 MB
+0001.893 (0) Zip: backup_2020-11-03-0038_The_Concierge_Hub_395b2622bb84-plugins.zip.tmp: 1600 files added (on-disk size: 6279.3 KB)
+0001.912 (0) Zip: backup_2020-11-03-0038_The_Concierge_Hub_395b2622bb84-plugins.zip.tmp: 1700 files added (on-disk size: 6279.3 KB)
+0001.929 (0) Zip: backup_2020-11-03-0038_The_Concierge_Hub_395b2622bb84-plugins.zip.tmp: 1800 files added (on-disk size: 6279.3 KB)
+0001.947 (0) Zip: backup_2020-11-03-0038_The_Concierge_Hub_395b2622bb84-plugins.zip.tmp: 1900 files added (on-disk size: 6279.3 KB)
+0001.964 (0) Zip: backup_2020-11-03-0038_The_Concierge_Hub_395b2622bb84-plugins.zip.tmp: 2000 files added (on-disk size: 6279.3 KB)
+0001.967 (0) Adding batch to zip file (UpdraftPlus_BinZip): over 500 files added on this batch (19.3 MB, 2963 files batched, 501 (2004) added so far); re-opening (prior size: 6279.3 KB)
+0003.077 (0) backup_2020-11-03-0038_The_Concierge_Hub_395b2622bb84-plugins.zip.tmp: size is now: 11.20 MB
+0003.100 (0) Zip: backup_2020-11-03-0038_The_Concierge_Hub_395b2622bb84-plugins.zip.tmp: 2100 files added (on-disk size: 11477.8 KB)
+0003.117 (0) Zip: backup_2020-11-03-0038_The_Concierge_Hub_395b2622bb84-plugins.zip.tmp: 2200 files added (on-disk size: 11477.8 KB)
+0003.135 (0) Zip: backup_2020-11-03-0038_The_Concierge_Hub_395b2622bb84-plugins.zip.tmp: 2300 files added (on-disk size: 11477.8 KB)
+0003.153 (0) Zip: backup_2020-11-03-0038_The_Concierge_Hub_395b2622bb84-plugins.zip.tmp: 2400 files added (on-disk size: 11477.8 KB)
+0003.172 (0) Zip: backup_2020-11-03-0038_The_Concierge_Hub_395b2622bb84-plugins.zip.tmp: 2500 files added (on-disk size: 11477.8 KB)
+0003.174 (0) Adding batch to zip file (UpdraftPlus_BinZip): over 500 files added on this batch (1.5 MB, 2963 files batched, 501 (2505) added so far); re-opening (prior size: 11477.8 KB)
+0003.522 (0) Zip: backup_2020-11-03-0038_The_Concierge_Hub_395b2622bb84-plugins.zip.tmp: 2600 files added (on-disk size: 12082.1 KB)
+0003.540 (0) Zip: backup_2020-11-03-0038_The_Concierge_Hub_395b2622bb84-plugins.zip.tmp: 2700 files added (on-disk size: 12082.1 KB)
+0003.557 (0) Zip: backup_2020-11-03-0038_The_Concierge_Hub_395b2622bb84-plugins.zip.tmp: 2800 files added (on-disk size: 12082.1 KB)
+0003.575 (0) Zip: backup_2020-11-03-0038_The_Concierge_Hub_395b2622bb84-plugins.zip.tmp: 2900 files added (on-disk size: 12082.1 KB)
+0004.350 (0) Created plugins zip (0) - 13560.8 KB in 4.3 s (3172.6 KB/s) (sha1: 1833658c25673fb675e5c1c704ae5b3782b22417, sha256: e149fab92cd90720735e6b3391666db452922bdea49ab8a701a3706939d9fcca)
+0004.356 (0) Beginning creation of dump of themes (split every: 25 MB)
+0005.984 (0) Total entities for the zip file: 2301 directories, 12633 files (0 skipped as non-modified), 180.9 MB
+0005.990 (0) Adding batch to zip file (UpdraftPlus_BinZip): over 25 MB added on this batch (98.1 MB, 12633 files batched, 5 (5) added so far); re-opening (prior size: 0 KB)
+0006.868 (0) backup_2020-11-03-0038_The_Concierge_Hub_395b2622bb84-themes.zip.tmp: size is now: 98.60 MB
+0006.871 (0) A useful amount of data was added after this amount of zip processing: 2.6 s (normalised: 0.7 s, rate: 38342.5 KB/s)
+0006.872 (0) Performance is good - but we will not increase the amount of data we batch, as we are already at the present limit (time=2.6200869083405, normalised_time=0.66766698353724, max_time=6.8718681335449, data points known=1, max_bytes=26214400)
+0006.875 (0) Zip size is at/near split limit (98.6 MB / 25 MB) - bumping index (from: 0)
+0007.934 (0) Created themes zip (0) - 100987.4 KB in 2.5 s (40129 KB/s) (checksums: sha1: 4c477cd457a4f9fb551ed34d7ecc019b126ab6e4, sha256: b1f6b929f9e7c23faec00f3bd138f72660aef2c0761adbe883e41dd9c8cf1fe2)
+0007.953 (0) Zip: backup_2020-11-03-0038_The_Concierge_Hub_395b2622bb84-themes2.zip.tmp: 100 files added (on-disk size: 0 KB)
+0007.972 (0) Zip: backup_2020-11-03-0038_The_Concierge_Hub_395b2622bb84-themes2.zip.tmp: 200 files added (on-disk size: 0 KB)
+0007.991 (0) Zip: backup_2020-11-03-0038_The_Concierge_Hub_395b2622bb84-themes2.zip.tmp: 300 files added (on-disk size: 0 KB)
+0007.999 (0) File skipped due to unexpected name mismatch (locale: C): file=/Users/ecosync/Local Sites/cch/app/public/wp-content/themes/f2blueprint/node_modules/jsesc/bin/jsesc add_as=themes/f2blueprint/node_modules/.bin/jsesc
+0008.012 (0) Zip: backup_2020-11-03-0038_The_Concierge_Hub_395b2622bb84-themes2.zip.tmp: 400 files added (on-disk size: 0 KB)
+0008.031 (0) Zip: backup_2020-11-03-0038_The_Concierge_Hub_395b2622bb84-themes2.zip.tmp: 500 files added (on-disk size: 0 KB)
+0008.034 (0) Adding batch to zip file (UpdraftPlus_BinZip): over 500 files added on this batch (24.1 MB, 12633 files batched, 501 (506) added so far); re-opening (prior size: 0 KB)
+0008.651 (0) backup_2020-11-03-0038_The_Concierge_Hub_395b2622bb84-themes2.zip.tmp: size is now: 19.70 MB
+0008.668 (0) Zip: backup_2020-11-03-0038_The_Concierge_Hub_395b2622bb84-themes2.zip.tmp: 600 files added (on-disk size: 20126.4 KB)
+0008.685 (0) Zip: backup_2020-11-03-0038_The_Concierge_Hub_395b2622bb84-themes2.zip.tmp: 700 files added (on-disk size: 20126.4 KB)
+0008.701 (0) Zip: backup_2020-11-03-0038_The_Concierge_Hub_395b2622bb84-themes2.zip.tmp: 800 files added (on-disk size: 20126.4 KB)
+0008.717 (0) Zip: backup_2020-11-03-0038_The_Concierge_Hub_395b2622bb84-themes2.zip.tmp: 900 files added (on-disk size: 20126.4 KB)
+0008.734 (0) Zip: backup_2020-11-03-0038_The_Concierge_Hub_395b2622bb84-themes2.zip.tmp: 1000 files added (on-disk size: 20126.4 KB)
+0008.736 (0) Adding batch to zip file (UpdraftPlus_BinZip): over 500 files added on this batch (0.7 MB, 12633 files batched, 501 (1007) added so far); re-opening (prior size: 20126.4 KB)
+0009.056 (0) Zip: backup_2020-11-03-0038_The_Concierge_Hub_395b2622bb84-themes2.zip.tmp: 1100 files added (on-disk size: 20462.1 KB)
+0009.073 (0) Zip: backup_2020-11-03-0038_The_Concierge_Hub_395b2622bb84-themes2.zip.tmp: 1200 files added (on-disk size: 20462.1 KB)
+0009.091 (0) Zip: backup_2020-11-03-0038_The_Concierge_Hub_395b2622bb84-themes2.zip.tmp: 1300 files added (on-disk size: 20462.1 KB)
+0009.108 (0) Zip: backup_2020-11-03-0038_The_Concierge_Hub_395b2622bb84-themes2.zip.tmp: 1400 files added (on-disk size: 20462.1 KB)
+0009.125 (0) Zip: backup_2020-11-03-0038_The_Concierge_Hub_395b2622bb84-themes2.zip.tmp: 1500 files added (on-disk size: 20462.1 KB)
+0009.128 (0) Adding batch to zip file (UpdraftPlus_BinZip): over 500 files added on this batch (0.4 MB, 12633 files batched, 501 (1508) added so far); re-opening (prior size: 20462.1 KB)
+0009.425 (0) Zip: backup_2020-11-03-0038_The_Concierge_Hub_395b2622bb84-themes2.zip.tmp: 1600 files added (on-disk size: 20758 KB)
+0009.427 (0) File skipped due to unexpected name mismatch (locale: C): file=/Users/ecosync/Local Sites/cch/app/public/wp-content/themes/f2blueprint/node_modules/browserslist/cli.js add_as=themes/f2blueprint/node_modules/.bin/browserslist
+0009.442 (0) Zip: backup_2020-11-03-0038_The_Concierge_Hub_395b2622bb84-themes2.zip.tmp: 1700 files added (on-disk size: 20758 KB)
+0009.448 (0) File skipped due to unexpected name mismatch (locale: C): file=/Users/ecosync/Local Sites/cch/app/public/wp-content/themes/f2blueprint/node_modules/errno/cli.js add_as=themes/f2blueprint/node_modules/.bin/errno
+0009.460 (0) Zip: backup_2020-11-03-0038_The_Concierge_Hub_395b2622bb84-themes2.zip.tmp: 1800 files added (on-disk size: 20758 KB)
+0009.478 (0) Zip: backup_2020-11-03-0038_The_Concierge_Hub_395b2622bb84-themes2.zip.tmp: 1900 files added (on-disk size: 20758 KB)
+0009.494 (0) Zip: backup_2020-11-03-0038_The_Concierge_Hub_395b2622bb84-themes2.zip.tmp: 2000 files added (on-disk size: 20758 KB)
+0009.498 (0) Adding batch to zip file (UpdraftPlus_BinZip): over 500 files added on this batch (2.4 MB, 12633 files batched, 501 (2009) added so far); re-opening (prior size: 20758 KB)
+0009.910 (0) Zip: backup_2020-11-03-0038_The_Concierge_Hub_395b2622bb84-themes2.zip.tmp: 2100 files added (on-disk size: 21613.9 KB)
+0009.926 (0) Zip: backup_2020-11-03-0038_The_Concierge_Hub_395b2622bb84-themes2.zip.tmp: 2200 files added (on-disk size: 21613.9 KB)
+0009.943 (0) Zip: backup_2020-11-03-0038_The_Concierge_Hub_395b2622bb84-themes2.zip.tmp: 2300 files added (on-disk size: 21613.9 KB)
+0009.961 (0) Zip: backup_2020-11-03-0038_The_Concierge_Hub_395b2622bb84-themes2.zip.tmp: 2400 files added (on-disk size: 21613.9 KB)
+0009.978 (0) Zip: backup_2020-11-03-0038_The_Concierge_Hub_395b2622bb84-themes2.zip.tmp: 2500 files added (on-disk size: 21613.9 KB)
+0009.982 (0) Adding batch to zip file (UpdraftPlus_BinZip): over 500 files added on this batch (2.4 MB, 12633 files batched, 501 (2510) added so far); re-opening (prior size: 21613.9 KB)
+0010.417 (0) Zip: backup_2020-11-03-0038_The_Concierge_Hub_395b2622bb84-themes2.zip.tmp: 2600 files added (on-disk size: 22402.3 KB)
+0010.436 (0) Zip: backup_2020-11-03-0038_The_Concierge_Hub_395b2622bb84-themes2.zip.tmp: 2700 files added (on-disk size: 22402.3 KB)
+0010.454 (0) Zip: backup_2020-11-03-0038_The_Concierge_Hub_395b2622bb84-themes2.zip.tmp: 2800 files added (on-disk size: 22402.3 KB)
+0010.473 (0) Zip: backup_2020-11-03-0038_The_Concierge_Hub_395b2622bb84-themes2.zip.tmp: 2900 files added (on-disk size: 22402.3 KB)
+0010.491 (0) Zip: backup_2020-11-03-0038_The_Concierge_Hub_395b2622bb84-themes2.zip.tmp: 3000 files added (on-disk size: 22402.3 KB)
+0010.495 (0) Adding batch to zip file (UpdraftPlus_BinZip): over 500 files added on this batch (3.3 MB, 12633 files batched, 501 (3011) added so far); re-opening (prior size: 22402.3 KB)
+0010.967 (0) Zip: backup_2020-11-03-0038_The_Concierge_Hub_395b2622bb84-themes2.zip.tmp: 3100 files added (on-disk size: 23455.3 KB)
+0010.985 (0) Zip: backup_2020-11-03-0038_The_Concierge_Hub_395b2622bb84-themes2.zip.tmp: 3200 files added (on-disk size: 23455.3 KB)
+0011.004 (0) Zip: backup_2020-11-03-0038_The_Concierge_Hub_395b2622bb84-themes2.zip.tmp: 3300 files added (on-disk size: 23455.3 KB)
+0011.022 (0) Zip: backup_2020-11-03-0038_The_Concierge_Hub_395b2622bb84-themes2.zip.tmp: 3400 files added (on-disk size: 23455.3 KB)
+0011.040 (0) Zip: backup_2020-11-03-0038_The_Concierge_Hub_395b2622bb84-themes2.zip.tmp: 3500 files added (on-disk size: 23455.3 KB)
+0011.044 (0) Adding batch to zip file (UpdraftPlus_BinZip): over 500 files added on this batch (2.7 MB, 12633 files batched, 501 (3512) added so far); re-opening (prior size: 23455.3 KB)
+0011.502 (0) Zip: backup_2020-11-03-0038_The_Concierge_Hub_395b2622bb84-themes2.zip.tmp: 3600 files added (on-disk size: 24341.3 KB)
+0011.520 (0) Zip: backup_2020-11-03-0038_The_Concierge_Hub_395b2622bb84-themes2.zip.tmp: 3700 files added (on-disk size: 24341.3 KB)
+0011.539 (0) Zip: backup_2020-11-03-0038_The_Concierge_Hub_395b2622bb84-themes2.zip.tmp: 3800 files added (on-disk size: 24341.3 KB)
+0011.556 (0) Zip: backup_2020-11-03-0038_The_Concierge_Hub_395b2622bb84-themes2.zip.tmp: 3900 files added (on-disk size: 24341.3 KB)
+0011.573 (0) Zip: backup_2020-11-03-0038_The_Concierge_Hub_395b2622bb84-themes2.zip.tmp: 4000 files added (on-disk size: 24341.3 KB)
+0011.577 (0) Adding batch to zip file (UpdraftPlus_BinZip): over 500 files added on this batch (2.9 MB, 12633 files batched, 501 (4013) added so far); re-opening (prior size: 24341.3 KB)
+0012.413 (0) Adding batch to zip file (UpdraftPlus_BinZip): possibly approaching split limit (0.6 MB, 62 (4075) files added so far); last ratio: 0.3593; re-opening (prior size: 25397.9 KB)
+0012.715 (0) Zip size is at/near split limit (25 MB / 25 MB) - bumping index (from: 1)
+0012.953 (0) Created themes zip (1) - 25598 KB in 4.8 s (5354.9 KB/s) (checksums: sha1: 5df2eea2c6eb43915f94b01c627bce05047323d2, sha256: 7f99f8c15dd744759458b8f902ec37d12429481af1abc42b233d6605757902da)
+0012.961 (0) Zip: backup_2020-11-03-0038_The_Concierge_Hub_395b2622bb84-themes3.zip.tmp: 4100 files added (on-disk size: 0 KB)
+0012.978 (0) Zip: backup_2020-11-03-0038_The_Concierge_Hub_395b2622bb84-themes3.zip.tmp: 4200 files added (on-disk size: 0 KB)
+0012.995 (0) Zip: backup_2020-11-03-0038_The_Concierge_Hub_395b2622bb84-themes3.zip.tmp: 4300 files added (on-disk size: 0 KB)
+0013.013 (0) Zip: backup_2020-11-03-0038_The_Concierge_Hub_395b2622bb84-themes3.zip.tmp: 4400 files added (on-disk size: 0 KB)
+0013.030 (0) Zip: backup_2020-11-03-0038_The_Concierge_Hub_395b2622bb84-themes3.zip.tmp: 4500 files added (on-disk size: 0 KB)
+0013.043 (0) Adding batch to zip file (UpdraftPlus_BinZip): over 500 files added on this batch (4.6 MB, 12633 files batched, 501 (4576) added so far); re-opening (prior size: 0 KB)
+0013.410 (0) backup_2020-11-03-0038_The_Concierge_Hub_395b2622bb84-themes3.zip.tmp: size is now: 1.40 MB
+0013.417 (0) Zip: backup_2020-11-03-0038_The_Concierge_Hub_395b2622bb84-themes3.zip.tmp: 4600 files added (on-disk size: 1443.7 KB)
+0013.434 (0) Zip: backup_2020-11-03-0038_The_Concierge_Hub_395b2622bb84-themes3.zip.tmp: 4700 files added (on-disk size: 1443.7 KB)
+0013.450 (0) Zip: backup_2020-11-03-0038_The_Concierge_Hub_395b2622bb84-themes3.zip.tmp: 4800 files added (on-disk size: 1443.7 KB)
+0013.467 (0) Zip: backup_2020-11-03-0038_The_Concierge_Hub_395b2622bb84-themes3.zip.tmp: 4900 files added (on-disk size: 1443.7 KB)
+0013.485 (0) Zip: backup_2020-11-03-0038_The_Concierge_Hub_395b2622bb84-themes3.zip.tmp: 5000 files added (on-disk size: 1443.7 KB)
+0013.498 (0) Adding batch to zip file (UpdraftPlus_BinZip): over 500 files added on this batch (2.1 MB, 12633 files batched, 501 (5077) added so far); re-opening (prior size: 1443.7 KB)
+0013.763 (0) backup_2020-11-03-0038_The_Concierge_Hub_395b2622bb84-themes3.zip.tmp: size is now: 2.20 MB
+0013.770 (0) Zip: backup_2020-11-03-0038_The_Concierge_Hub_395b2622bb84-themes3.zip.tmp: 5100 files added (on-disk size: 2202.2 KB)
+0013.786 (0) Zip: backup_2020-11-03-0038_The_Concierge_Hub_395b2622bb84-themes3.zip.tmp: 5200 files added (on-disk size: 2202.2 KB)
+0013.803 (0) Zip: backup_2020-11-03-0038_The_Concierge_Hub_395b2622bb84-themes3.zip.tmp: 5300 files added (on-disk size: 2202.2 KB)
+0013.819 (0) Zip: backup_2020-11-03-0038_The_Concierge_Hub_395b2622bb84-themes3.zip.tmp: 5400 files added (on-disk size: 2202.2 KB)
+0013.836 (0) Zip: backup_2020-11-03-0038_The_Concierge_Hub_395b2622bb84-themes3.zip.tmp: 5500 files added (on-disk size: 2202.2 KB)
+0013.849 (0) Adding batch to zip file (UpdraftPlus_BinZip): over 500 files added on this batch (2.9 MB, 12633 files batched, 501 (5578) added so far); re-opening (prior size: 2202.2 KB)
+0014.150 (0) backup_2020-11-03-0038_The_Concierge_Hub_395b2622bb84-themes3.zip.tmp: size is now: 3.00 MB
+0014.157 (0) Zip: backup_2020-11-03-0038_The_Concierge_Hub_395b2622bb84-themes3.zip.tmp: 5600 files added (on-disk size: 3040.8 KB)
+0014.173 (0) Zip: backup_2020-11-03-0038_The_Concierge_Hub_395b2622bb84-themes3.zip.tmp: 5700 files added (on-disk size: 3040.8 KB)
+0014.189 (0) Zip: backup_2020-11-03-0038_The_Concierge_Hub_395b2622bb84-themes3.zip.tmp: 5800 files added (on-disk size: 3040.8 KB)
+0014.205 (0) Zip: backup_2020-11-03-0038_The_Concierge_Hub_395b2622bb84-themes3.zip.tmp: 5900 files added (on-disk size: 3040.8 KB)
+0014.222 (0) Zip: backup_2020-11-03-0038_The_Concierge_Hub_395b2622bb84-themes3.zip.tmp: 6000 files added (on-disk size: 3040.8 KB)
+0014.236 (0) Adding batch to zip file (UpdraftPlus_BinZip): over 500 files added on this batch (2.2 MB, 12633 files batched, 501 (6079) added so far); re-opening (prior size: 3040.8 KB)
+0014.528 (0) backup_2020-11-03-0038_The_Concierge_Hub_395b2622bb84-themes3.zip.tmp: size is now: 3.70 MB
+0014.535 (0) Zip: backup_2020-11-03-0038_The_Concierge_Hub_395b2622bb84-themes3.zip.tmp: 6100 files added (on-disk size: 3818.9 KB)
+0014.553 (0) Zip: backup_2020-11-03-0038_The_Concierge_Hub_395b2622bb84-themes3.zip.tmp: 6200 files added (on-disk size: 3818.9 KB)
+0014.570 (0) Zip: backup_2020-11-03-0038_The_Concierge_Hub_395b2622bb84-themes3.zip.tmp: 6300 files added (on-disk size: 3818.9 KB)
+0014.586 (0) Zip: backup_2020-11-03-0038_The_Concierge_Hub_395b2622bb84-themes3.zip.tmp: 6400 files added (on-disk size: 3818.9 KB)
+0014.603 (0) Zip: backup_2020-11-03-0038_The_Concierge_Hub_395b2622bb84-themes3.zip.tmp: 6500 files added (on-disk size: 3818.9 KB)
+0014.617 (0) Adding batch to zip file (UpdraftPlus_BinZip): over 500 files added on this batch (2.1 MB, 12633 files batched, 501 (6580) added so far); re-opening (prior size: 3818.9 KB)
+0014.906 (0) Zip: backup_2020-11-03-0038_The_Concierge_Hub_395b2622bb84-themes3.zip.tmp: 6600 files added (on-disk size: 4564.6 KB)
+0014.922 (0) Zip: backup_2020-11-03-0038_The_Concierge_Hub_395b2622bb84-themes3.zip.tmp: 6700 files added (on-disk size: 4564.6 KB)
+0014.940 (0) Zip: backup_2020-11-03-0038_The_Concierge_Hub_395b2622bb84-themes3.zip.tmp: 6800 files added (on-disk size: 4564.6 KB)
+0014.957 (0) Zip: backup_2020-11-03-0038_The_Concierge_Hub_395b2622bb84-themes3.zip.tmp: 6900 files added (on-disk size: 4564.6 KB)
+0014.975 (0) Zip: backup_2020-11-03-0038_The_Concierge_Hub_395b2622bb84-themes3.zip.tmp: 7000 files added (on-disk size: 4564.6 KB)
+0014.990 (0) Adding batch to zip file (UpdraftPlus_BinZip): over 500 files added on this batch (4.6 MB, 12633 files batched, 501 (7081) added so far); re-opening (prior size: 4564.6 KB)
+0015.401 (0) backup_2020-11-03-0038_The_Concierge_Hub_395b2622bb84-themes3.zip.tmp: size is now: 5.80 MB
+0015.407 (0) Zip: backup_2020-11-03-0038_The_Concierge_Hub_395b2622bb84-themes3.zip.tmp: 7100 files added (on-disk size: 5923.8 KB)
+0015.423 (0) Zip: backup_2020-11-03-0038_The_Concierge_Hub_395b2622bb84-themes3.zip.tmp: 7200 files added (on-disk size: 5923.8 KB)
+0015.434 (0) File skipped due to unexpected name mismatch (locale: C): file=/Users/ecosync/Local Sites/cch/app/public/wp-content/themes/f2blueprint/node_modules/regjsparser/node_modules/jsesc/bin/jsesc add_as=themes/f2blueprint/node_modules/regjsparser/node_modules/.bin/jsesc
+0015.439 (0) Zip: backup_2020-11-03-0038_The_Concierge_Hub_395b2622bb84-themes3.zip.tmp: 7300 files added (on-disk size: 5923.8 KB)
+0015.456 (0) Zip: backup_2020-11-03-0038_The_Concierge_Hub_395b2622bb84-themes3.zip.tmp: 7400 files added (on-disk size: 5923.8 KB)
+0015.472 (0) Zip: backup_2020-11-03-0038_The_Concierge_Hub_395b2622bb84-themes3.zip.tmp: 7500 files added (on-disk size: 5923.8 KB)
+0015.486 (0) Adding batch to zip file (UpdraftPlus_BinZip): over 500 files added on this batch (2.8 MB, 12633 files batched, 501 (7582) added so far); re-opening (prior size: 5923.8 KB)
+0015.844 (0) Zip: backup_2020-11-03-0038_The_Concierge_Hub_395b2622bb84-themes3.zip.tmp: 7600 files added (on-disk size: 6921.5 KB)
+0015.861 (0) Zip: backup_2020-11-03-0038_The_Concierge_Hub_395b2622bb84-themes3.zip.tmp: 7700 files added (on-disk size: 6921.5 KB)
+0015.877 (0) Zip: backup_2020-11-03-0038_The_Concierge_Hub_395b2622bb84-themes3.zip.tmp: 7800 files added (on-disk size: 6921.5 KB)
+0015.894 (0) Zip: backup_2020-11-03-0038_The_Concierge_Hub_395b2622bb84-themes3.zip.tmp: 7900 files added (on-disk size: 6921.5 KB)
+0015.910 (0) Zip: backup_2020-11-03-0038_The_Concierge_Hub_395b2622bb84-themes3.zip.tmp: 8000 files added (on-disk size: 6921.5 KB)
+0015.925 (0) Adding batch to zip file (UpdraftPlus_BinZip): over 500 files added on this batch (2 MB, 12633 files batched, 501 (8083) added so far); re-opening (prior size: 6921.5 KB)
+0016.247 (0) Zip: backup_2020-11-03-0038_The_Concierge_Hub_395b2622bb84-themes3.zip.tmp: 8100 files added (on-disk size: 7573.9 KB)
+0016.263 (0) Zip: backup_2020-11-03-0038_The_Concierge_Hub_395b2622bb84-themes3.zip.tmp: 8200 files added (on-disk size: 7573.9 KB)
+0016.281 (0) Zip: backup_2020-11-03-0038_The_Concierge_Hub_395b2622bb84-themes3.zip.tmp: 8300 files added (on-disk size: 7573.9 KB)
+0016.298 (0) Zip: backup_2020-11-03-0038_The_Concierge_Hub_395b2622bb84-themes3.zip.tmp: 8400 files added (on-disk size: 7573.9 KB)
+0016.316 (0) Zip: backup_2020-11-03-0038_The_Concierge_Hub_395b2622bb84-themes3.zip.tmp: 8500 files added (on-disk size: 7573.9 KB)
+0016.330 (0) Adding batch to zip file (UpdraftPlus_BinZip): over 500 files added on this batch (2.3 MB, 12633 files batched, 501 (8584) added so far); re-opening (prior size: 7573.9 KB)
+0016.678 (0) Zip: backup_2020-11-03-0038_The_Concierge_Hub_395b2622bb84-themes3.zip.tmp: 8600 files added (on-disk size: 8356.6 KB)
+0016.694 (0) Zip: backup_2020-11-03-0038_The_Concierge_Hub_395b2622bb84-themes3.zip.tmp: 8700 files added (on-disk size: 8356.6 KB)
+0016.711 (0) Zip: backup_2020-11-03-0038_The_Concierge_Hub_395b2622bb84-themes3.zip.tmp: 8800 files added (on-disk size: 8356.6 KB)
+0016.728 (0) Zip: backup_2020-11-03-0038_The_Concierge_Hub_395b2622bb84-themes3.zip.tmp: 8900 files added (on-disk size: 8356.6 KB)
+0016.744 (0) Zip: backup_2020-11-03-0038_The_Concierge_Hub_395b2622bb84-themes3.zip.tmp: 9000 files added (on-disk size: 8356.6 KB)
+0016.759 (0) Adding batch to zip file (UpdraftPlus_BinZip): over 500 files added on this batch (2.1 MB, 12633 files batched, 501 (9085) added so far); re-opening (prior size: 8356.6 KB)
+0017.088 (0) Zip: backup_2020-11-03-0038_The_Concierge_Hub_395b2622bb84-themes3.zip.tmp: 9100 files added (on-disk size: 9047.5 KB)
+0017.104 (0) Zip: backup_2020-11-03-0038_The_Concierge_Hub_395b2622bb84-themes3.zip.tmp: 9200 files added (on-disk size: 9047.5 KB)
+0017.120 (0) Zip: backup_2020-11-03-0038_The_Concierge_Hub_395b2622bb84-themes3.zip.tmp: 9300 files added (on-disk size: 9047.5 KB)
+0017.137 (0) Zip: backup_2020-11-03-0038_The_Concierge_Hub_395b2622bb84-themes3.zip.tmp: 9400 files added (on-disk size: 9047.5 KB)
+0017.153 (0) Zip: backup_2020-11-03-0038_The_Concierge_Hub_395b2622bb84-themes3.zip.tmp: 9500 files added (on-disk size: 9047.5 KB)
+0017.167 (0) Adding batch to zip file (UpdraftPlus_BinZip): over 500 files added on this batch (2.1 MB, 12633 files batched, 501 (9586) added so far); re-opening (prior size: 9047.5 KB)
+0017.508 (0) Zip: backup_2020-11-03-0038_The_Concierge_Hub_395b2622bb84-themes3.zip.tmp: 9600 files added (on-disk size: 9740.3 KB)
+0017.524 (0) Zip: backup_2020-11-03-0038_The_Concierge_Hub_395b2622bb84-themes3.zip.tmp: 9700 files added (on-disk size: 9740.3 KB)
+0017.540 (0) Zip: backup_2020-11-03-0038_The_Concierge_Hub_395b2622bb84-themes3.zip.tmp: 9800 files added (on-disk size: 9740.3 KB)
+0017.557 (0) Zip: backup_2020-11-03-0038_The_Concierge_Hub_395b2622bb84-themes3.zip.tmp: 9900 files added (on-disk size: 9740.3 KB)
+0017.573 (0) Zip: backup_2020-11-03-0038_The_Concierge_Hub_395b2622bb84-themes3.zip.tmp: 10000 files added (on-disk size: 9740.3 KB)
+0017.587 (0) Adding batch to zip file (UpdraftPlus_BinZip): over 500 files added on this batch (4.2 MB, 12633 files batched, 501 (10087) added so far); re-opening (prior size: 9740.3 KB)
+0018.048 (0) Zip: backup_2020-11-03-0038_The_Concierge_Hub_395b2622bb84-themes3.zip.tmp: 10100 files added (on-disk size: 11064.1 KB)
+0018.064 (0) Zip: backup_2020-11-03-0038_The_Concierge_Hub_395b2622bb84-themes3.zip.tmp: 10200 files added (on-disk size: 11064.1 KB)
+0018.081 (0) Zip: backup_2020-11-03-0038_The_Concierge_Hub_395b2622bb84-themes3.zip.tmp: 10300 files added (on-disk size: 11064.1 KB)
+0018.097 (0) Zip: backup_2020-11-03-0038_The_Concierge_Hub_395b2622bb84-themes3.zip.tmp: 10400 files added (on-disk size: 11064.1 KB)
+0018.114 (0) Zip: backup_2020-11-03-0038_The_Concierge_Hub_395b2622bb84-themes3.zip.tmp: 10500 files added (on-disk size: 11064.1 KB)
+0018.129 (0) Adding batch to zip file (UpdraftPlus_BinZip): over 500 files added on this batch (1.5 MB, 12633 files batched, 501 (10588) added so far); re-opening (prior size: 11064.1 KB)
+0018.471 (0) Zip: backup_2020-11-03-0038_The_Concierge_Hub_395b2622bb84-themes3.zip.tmp: 10600 files added (on-disk size: 11733.3 KB)
+0018.488 (0) Zip: backup_2020-11-03-0038_The_Concierge_Hub_395b2622bb84-themes3.zip.tmp: 10700 files added (on-disk size: 11733.3 KB)
+0018.504 (0) Zip: backup_2020-11-03-0038_The_Concierge_Hub_395b2622bb84-themes3.zip.tmp: 10800 files added (on-disk size: 11733.3 KB)
+0018.521 (0) Zip: backup_2020-11-03-0038_The_Concierge_Hub_395b2622bb84-themes3.zip.tmp: 10900 files added (on-disk size: 11733.3 KB)
+0018.537 (0) Zip: backup_2020-11-03-0038_The_Concierge_Hub_395b2622bb84-themes3.zip.tmp: 11000 files added (on-disk size: 11733.3 KB)
+0018.552 (0) Adding batch to zip file (UpdraftPlus_BinZip): over 500 files added on this batch (1 MB, 12633 files batched, 501 (11089) added so far); re-opening (prior size: 11733.3 KB)
+0018.901 (0) Zip: backup_2020-11-03-0038_The_Concierge_Hub_395b2622bb84-themes3.zip.tmp: 11100 files added (on-disk size: 12217.1 KB)
+0018.917 (0) Zip: backup_2020-11-03-0038_The_Concierge_Hub_395b2622bb84-themes3.zip.tmp: 11200 files added (on-disk size: 12217.1 KB)
+0018.933 (0) Zip: backup_2020-11-03-0038_The_Concierge_Hub_395b2622bb84-themes3.zip.tmp: 11300 files added (on-disk size: 12217.1 KB)
+0018.950 (0) Zip: backup_2020-11-03-0038_The_Concierge_Hub_395b2622bb84-themes3.zip.tmp: 11400 files added (on-disk size: 12217.1 KB)
+0018.966 (0) Zip: backup_2020-11-03-0038_The_Concierge_Hub_395b2622bb84-themes3.zip.tmp: 11500 files added (on-disk size: 12217.1 KB)
+0018.981 (0) Adding batch to zip file (UpdraftPlus_BinZip): over 500 files added on this batch (1.9 MB, 12633 files batched, 501 (11590) added so far); re-opening (prior size: 12217.1 KB)
+0019.720 (0) Zip: backup_2020-11-03-0038_The_Concierge_Hub_395b2622bb84-themes3.zip.tmp: 11600 files added (on-disk size: 12929.6 KB)
+0019.736 (0) Zip: backup_2020-11-03-0038_The_Concierge_Hub_395b2622bb84-themes3.zip.tmp: 11700 files added (on-disk size: 12929.6 KB)
+0019.752 (0) Zip: backup_2020-11-03-0038_The_Concierge_Hub_395b2622bb84-themes3.zip.tmp: 11800 files added (on-disk size: 12929.6 KB)
+0019.769 (0) Zip: backup_2020-11-03-0038_The_Concierge_Hub_395b2622bb84-themes3.zip.tmp: 11900 files added (on-disk size: 12929.6 KB)
+0019.785 (0) Zip: backup_2020-11-03-0038_The_Concierge_Hub_395b2622bb84-themes3.zip.tmp: 12000 files added (on-disk size: 12929.6 KB)
+0019.800 (0) Adding batch to zip file (UpdraftPlus_BinZip): over 500 files added on this batch (1.2 MB, 12633 files batched, 501 (12091) added so far); re-opening (prior size: 12929.6 KB)
+0020.153 (0) Zip: backup_2020-11-03-0038_The_Concierge_Hub_395b2622bb84-themes3.zip.tmp: 12100 files added (on-disk size: 13428.1 KB)
+0020.169 (0) Zip: backup_2020-11-03-0038_The_Concierge_Hub_395b2622bb84-themes3.zip.tmp: 12200 files added (on-disk size: 13428.1 KB)
+0020.186 (0) Zip: backup_2020-11-03-0038_The_Concierge_Hub_395b2622bb84-themes3.zip.tmp: 12300 files added (on-disk size: 13428.1 KB)
+0020.202 (0) Zip: backup_2020-11-03-0038_The_Concierge_Hub_395b2622bb84-themes3.zip.tmp: 12400 files added (on-disk size: 13428.1 KB)
+0020.218 (0) Zip: backup_2020-11-03-0038_The_Concierge_Hub_395b2622bb84-themes3.zip.tmp: 12500 files added (on-disk size: 13428.1 KB)
+0020.233 (0) Adding batch to zip file (UpdraftPlus_BinZip): over 500 files added on this batch (1.3 MB, 12633 files batched, 501 (12592) added so far); re-opening (prior size: 13428.1 KB)
+0020.599 (0) Zip: backup_2020-11-03-0038_The_Concierge_Hub_395b2622bb84-themes3.zip.tmp: 12600 files added (on-disk size: 13942.1 KB)
+0020.959 (0) Created themes zip (2) - 16104.3 KB in 8 s (2011.9 KB/s) (sha1: aae4e0c1aa4402fc69b14145339b0920268fbf74, sha256: 3cf397069992fc2e76c345af7077e6aa0cff7add0999068dbf1af190dc702a4c)
+0020.965 (0) Exclusion option setting (uploads): 
+0020.966 (0) Looking for candidates to backup in: /Users/ecosync/Local Sites/cch/app/public/wp-content/uploads
+0020.967 (0) finding files: 2020: adding to list (1)
+0020.969 (0) Beginning creation of dump of uploads (split every: 25 MB)
+0020.982 (0) Total entities for the zip file: 2 directories, 89 files (0 skipped as non-modified), 12.6 MB
+0021.224 (0) backup_2020-11-03-0038_The_Concierge_Hub_395b2622bb84-uploads.zip.tmp: size is now: 12.60 MB
+0021.348 (0) Created uploads zip (0) - 12934.9 KB in 0.4 s (34396.9 KB/s) (sha1: 71337dedb0b2c98d22f08776d01bd3bcfc8372f3, sha256: 7d3cb38700e0e1d8494a16a532bfcb1d583cfa7f7c4265dbfaa15b9dab4d7796)
+0021.353 (0) Beginning backup of other directories found in the content directory (index: 0)
+0021.355 (0) Exclusion option setting (others): 
+0021.356 (0) Looking for candidates to backup in: /Users/ecosync/Local Sites/cch/app/public/wp-content
+0021.357 (0) finding files: upgrade: adding to list (1)
+0021.358 (0) finding files: .DS_Store: adding to list (2)
+0021.359 (0) finding files: index.php: adding to list (3)
+0021.360 (0) finding files: plugins: skipping: this is the plugins directory
+0021.362 (0) finding files: uploads: skipping: this is the uploads directory
+0021.363 (0) finding files: updraft: skipping: this is the updraft directory
+0021.364 (0) finding files: languages: adding to list (4)
+0021.365 (0) finding files: ai1wm-backups: adding to list (5)
+0021.366 (0) finding files: themes: skipping: this is the themes directory
+0021.367 (0) finding files: mu-plugins: adding to list (6)
+0021.374 (0) Total entities for the zip file: 5 directories, 44 files (0 skipped as non-modified), 1.7 MB
+0021.481 (0) backup_2020-11-03-0038_The_Concierge_Hub_395b2622bb84-others.zip.tmp: size is now: 0.40 MB
+0021.492 (0) Created others zip (0) - 456.8 KB in 0.1 s (3745.8 KB/s) (sha1: dec5e473de2dec1374eb3ad8458fdfb3822e25d2, sha256: b4fbb2d6e99f3c70d687aa7af36bbdecd9258058597462baeff31193ff93c1cb)
+0021.500 (0) Saving backup status to database (elements: 10)
+0021.503 (0) Beginning creation of database dump (WordPress DB)
+0021.504 (0) SQL compatibility mode is: NO_ZERO_IN_DATE,ERROR_FOR_DIVISION_BY_ZERO,NO_ENGINE_SUBSTITUTION
+0021.514 (0) Table wp_options: Total expected rows (approximate): 299
+0021.551 (0) Table wp_options: Rows added in this batch (next record: 3853): 294 in 0.04 seconds
+0021.558 (0) Table wp_options: finishing file(s) (2, 157 KB)
+0021.562 (0) Table wp_users: Total expected rows (approximate): 7
+0021.566 (0) Table wp_users: Rows added in this batch (next record: 8): 7 in 0.00 seconds
+0021.571 (0) Table wp_users: finishing file(s) (2, 1.2 KB)
+0021.574 (0) Table wp_usermeta: Total expected rows (approximate): 124
+0021.580 (0) Table wp_usermeta: Rows added in this batch (next record: 175): 124 in 0.00 seconds
+0021.585 (0) Table wp_usermeta: finishing file(s) (2, 2.2 KB)
+0021.589 (0) Table wp_commentmeta: Total expected rows (approximate): 0
+0021.592 (0) Table wp_commentmeta: Rows added in this batch (next record: -1): 0 in 0.00 seconds
+0021.596 (0) Table wp_commentmeta: finishing file(s) (2, 0.4 KB)
+0021.600 (0) Table wp_comments: Total expected rows (approximate): 0
+0021.603 (0) Table wp_comments: Rows added in this batch (next record: -1): 0 in 0.00 seconds
+0021.609 (0) Table wp_comments: finishing file(s) (2, 0.5 KB)
+0021.613 (0) Table wp_links: Total expected rows (approximate): 0
+0021.617 (0) Table wp_links: Rows added in this batch (next record: -1): 0 in 0.00 seconds
+0021.622 (0) Table wp_links: finishing file(s) (2, 0.5 KB)
+0021.626 (0) Table wp_postmeta: Total expected rows (approximate): 1184
+0021.661 (0) Table wp_postmeta: Rows added in this batch (next record: 2607): 1230 in 0.03 seconds
+0021.667 (0) Table wp_postmeta: finishing file(s) (2, 20.4 KB)
+0021.671 (0) Table wp_posts: Total expected rows (approximate): 263
+0021.721 (0) Table wp_posts: Rows added in this batch (next record: 564): 302 in 0.05 seconds
+0021.727 (0) Table wp_posts: finishing file(s) (2, 38.5 KB)
+0021.732 (0) Table wp_term_relationships: Total expected rows (approximate): 253
+0021.739 (0) Table wp_term_relationships: Rows added in this batch (next record: 90): 257 in 0.01 seconds
+0021.744 (0) Table wp_term_relationships: finishing file(s) (2, 1.1 KB)
+0021.748 (0) Table wp_term_taxonomy: Total expected rows (approximate): 59
+0021.753 (0) Table wp_term_taxonomy: Rows added in this batch (next record: 90): 69 in 0.00 seconds
+0021.757 (0) Table wp_term_taxonomy: finishing file(s) (2, 1.3 KB)
+0021.761 (0) Table wp_termmeta: Total expected rows (approximate): 0
+0021.765 (0) Table wp_termmeta: Rows added in this batch (next record: -1): 0 in 0.00 seconds
+0021.771 (0) Table wp_termmeta: finishing file(s) (2, 0.4 KB)
+0021.774 (0) Table wp_terms: Total expected rows (approximate): 59
+0021.779 (0) Table wp_terms: Rows added in this batch (next record: 90): 69 in 0.00 seconds
+0021.784 (0) Table wp_terms: finishing file(s) (2, 1.3 KB)
+0021.787 (0) backup_2020-11-03-0038_The_Concierge_Hub_395b2622bb84-db-table-wp_options.table.tmpr3854.gz (1/12): adding to final database dump
+0021.815 (0) backup_2020-11-03-0038_The_Concierge_Hub_395b2622bb84-db-table-wp_options.table.gz (2/12): adding to final database dump
+0021.817 (0) backup_2020-11-03-0038_The_Concierge_Hub_395b2622bb84-db-table-wp_users.table.tmpr9.gz (3/12): adding to final database dump
+0021.819 (0) backup_2020-11-03-0038_The_Concierge_Hub_395b2622bb84-db-table-wp_users.table.gz (4/12): adding to final database dump
+0021.820 (0) backup_2020-11-03-0038_The_Concierge_Hub_395b2622bb84-db-table-wp_usermeta.table.tmpr176.gz (5/12): adding to final database dump
+0021.822 (0) backup_2020-11-03-0038_The_Concierge_Hub_395b2622bb84-db-table-wp_usermeta.table.gz (6/12): adding to final database dump
+0021.823 (0) backup_2020-11-03-0038_The_Concierge_Hub_395b2622bb84-db-table-wp_commentmeta.table.tmpr0.gz (7/12): adding to final database dump
+0021.824 (0) backup_2020-11-03-0038_The_Concierge_Hub_395b2622bb84-db-table-wp_commentmeta.table.gz (8/12): adding to final database dump
+0021.826 (0) backup_2020-11-03-0038_The_Concierge_Hub_395b2622bb84-db-table-wp_comments.table.tmpr0.gz (9/12): adding to final database dump
+0021.827 (0) backup_2020-11-03-0038_The_Concierge_Hub_395b2622bb84-db-table-wp_comments.table.gz (10/12): adding to final database dump
+0021.829 (0) backup_2020-11-03-0038_The_Concierge_Hub_395b2622bb84-db-table-wp_links.table.tmpr0.gz (11/12): adding to final database dump
+0021.832 (0) backup_2020-11-03-0038_The_Concierge_Hub_395b2622bb84-db-table-wp_links.table.gz (12/12): adding to final database dump
+0021.834 (0) backup_2020-11-03-0038_The_Concierge_Hub_395b2622bb84-db-table-wp_postmeta.table.tmpr2608.gz (13/12): adding to final database dump
+0021.843 (0) backup_2020-11-03-0038_The_Concierge_Hub_395b2622bb84-db-table-wp_postmeta.table.gz (14/12): adding to final database dump
+0021.845 (0) backup_2020-11-03-0038_The_Concierge_Hub_395b2622bb84-db-table-wp_posts.table.tmpr565.gz (15/12): adding to final database dump
+0021.856 (0) backup_2020-11-03-0038_The_Concierge_Hub_395b2622bb84-db-table-wp_posts.table.gz (16/12): adding to final database dump
+0021.857 (0) backup_2020-11-03-0038_The_Concierge_Hub_395b2622bb84-db-table-wp_term_relationships.table.tmpr91.gz (17/12): adding to final database dump
+0021.860 (0) backup_2020-11-03-0038_The_Concierge_Hub_395b2622bb84-db-table-wp_term_relationships.table.gz (18/12): adding to final database dump
+0021.861 (0) backup_2020-11-03-0038_The_Concierge_Hub_395b2622bb84-db-table-wp_term_taxonomy.table.tmpr91.gz (19/12): adding to final database dump
+0021.863 (0) backup_2020-11-03-0038_The_Concierge_Hub_395b2622bb84-db-table-wp_term_taxonomy.table.gz (20/12): adding to final database dump
+0021.865 (0) backup_2020-11-03-0038_The_Concierge_Hub_395b2622bb84-db-table-wp_termmeta.table.tmpr0.gz (21/12): adding to final database dump
+0021.867 (0) backup_2020-11-03-0038_The_Concierge_Hub_395b2622bb84-db-table-wp_termmeta.table.gz (22/12): adding to final database dump
+0021.868 (0) backup_2020-11-03-0038_The_Concierge_Hub_395b2622bb84-db-table-wp_terms.table.tmpr91.gz (23/12): adding to final database dump
+0021.870 (0) backup_2020-11-03-0038_The_Concierge_Hub_395b2622bb84-db-table-wp_terms.table.gz (24/12): adding to final database dump
+0021.878 (0) backup_2020-11-03-0038_The_Concierge_Hub_395b2622bb84-db.gz: finished writing out complete database file (216 KB)
+0021.889 (0) Total database tables backed up: 12 (backup_2020-11-03-0038_The_Concierge_Hub_395b2622bb84-db.gz, size: 227822, sha1: ef83a32a01799b495a2ed06aeccf4024ef980f76, sha256: cf9dbc90d4d7bb124db5026f1efb23b5b3844ec03a8869a8d809b8616dddbdd5)
+0021.898 (0) backup_2020-11-03-0038_The_Concierge_Hub_395b2622bb84-plugins.zip: plugins: This file has not yet been successfully uploaded: will queue
+0021.900 (0) backup_2020-11-03-0038_The_Concierge_Hub_395b2622bb84-themes.zip: themes: This file has not yet been successfully uploaded: will queue
+0021.902 (0) backup_2020-11-03-0038_The_Concierge_Hub_395b2622bb84-themes2.zip: themes: This file has not yet been successfully uploaded: will queue
+0021.904 (0) backup_2020-11-03-0038_The_Concierge_Hub_395b2622bb84-themes3.zip: themes: This file has not yet been successfully uploaded: will queue
+0021.905 (0) backup_2020-11-03-0038_The_Concierge_Hub_395b2622bb84-uploads.zip: uploads: This file has not yet been successfully uploaded: will queue
+0021.906 (0) backup_2020-11-03-0038_The_Concierge_Hub_395b2622bb84-others.zip: others: This file has not yet been successfully uploaded: will queue
+0021.907 (0) backup_2020-11-03-0038_The_Concierge_Hub_395b2622bb84-db.gz: db: This file has not yet been successfully uploaded: will queue
+0021.909 (0) Saving backup history. Total backup size: 165.9 MB
+0021.912 (0) Requesting upload of the files that have not yet been successfully uploaded (7)
+0021.917 (0) Cloud backup selection (1/1): none with instance (1/1) (last)
+0021.918 (0) No remote despatch: user chose no remote backup service
+0021.920 (0) Recording as successfully uploaded: backup_2020-11-03-0038_The_Concierge_Hub_395b2622bb84-plugins.zip
+0021.923 (0) Recording as successfully uploaded: backup_2020-11-03-0038_The_Concierge_Hub_395b2622bb84-themes.zip
+0021.926 (0) Recording as successfully uploaded: backup_2020-11-03-0038_The_Concierge_Hub_395b2622bb84-themes2.zip
+0021.929 (0) Recording as successfully uploaded: backup_2020-11-03-0038_The_Concierge_Hub_395b2622bb84-themes3.zip
+0021.932 (0) Recording as successfully uploaded: backup_2020-11-03-0038_The_Concierge_Hub_395b2622bb84-uploads.zip
+0021.937 (0) Recording as successfully uploaded: backup_2020-11-03-0038_The_Concierge_Hub_395b2622bb84-others.zip
+0021.940 (0) Recording as successfully uploaded: backup_2020-11-03-0038_The_Concierge_Hub_395b2622bb84-db.gz
+0021.943 (0) Prune old backups from local store: nothing to do, since the user disabled local deletion and we are using local backups
+0021.944 (0) Resume backup (395b2622bb84, 0): finish run
+0021.948 (0) Decremented the semaphore (fd) by 1
+0021.949 (0) Semaphore (fd) unlocked
+0021.951 (0) There were no errors in the uploads, so the 'resume' event (1) is being unscheduled
+0021.955 (0) No email will/can be sent - the user has not configured an email address.
+0021.956 (0) The backup apparently succeeded and is now complete

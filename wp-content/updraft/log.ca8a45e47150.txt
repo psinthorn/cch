@@ -1,0 +1,86 @@
+0000.004 () Opened log file at time: Sun, 01 Nov 2020 05:19:37 +0000 on http://localhost:10043
+0000.004 () UpdraftPlus WordPress backup plugin (https://updraftplus.com): 1.16.34 WP: 5.5.3 PHP: 7.3.5 (fpm-fcgi, Darwin psinthorn-macbook.local 19.5.0 Darwin Kernel Version 19.5.0: Tue May 26 20:41:44 PDT 2020; root:xnu-6153.121.2~2/RELEASE_X86_64 x86_64) MySQL: 8.0.16 WPLANG: en_US Server: nginx/1.16.0 safe_mode: 0 max_execution_time: 900 memory_limit: 256M (used: 4.9M | 2M) multisite: N openssl: OpenSSL 1.1.1g  21 Apr 2020 mcrypt: N LANG:  ZipArchive::addFile: Y
+0000.004 () Free space on disk containing Updraft's temporary directory: 3078.7 MB
+0000.004 () Opened log file at time: Sun, 01 Nov 2020 05:19:37 +0000 on http://localhost:10043
+0000.004 () UpdraftPlus WordPress backup plugin (https://updraftplus.com): 1.16.34 WP: 5.5.3 PHP: 7.3.5 (fpm-fcgi, Darwin psinthorn-macbook.local 19.5.0 Darwin Kernel Version 19.5.0: Tue May 26 20:41:44 PDT 2020; root:xnu-6153.121.2~2/RELEASE_X86_64 x86_64) MySQL: 8.0.16 WPLANG: en_US Server: nginx/1.16.0 safe_mode: 0 max_execution_time: 900 memory_limit: 256M (used: 4.4M | 2M) multisite: N openssl: OpenSSL 1.1.1g  21 Apr 2020 mcrypt: N LANG:  ZipArchive::addFile: Y
+0000.004 () Free space on disk containing Updraft's temporary directory: 3078.7 MB
+0000.005 () Ensuring WP_Filesystem is setup for a restore
+0000.005 () WP_Filesystem is setup and ready for a restore
+0000.008 () Restore job started. Entities to restore: plugins, themes, db. Restore options: {"include_unspecified_tables":false,"tables_to_restore":["wp_options","wp_users","wp_usermeta","wp_commentmeta","wp_comments","wp_links","wp_postmeta","wp_posts","wp_term_relationships","wp_term_taxonomy","wp_termmeta","wp_terms"],"tables_to_skip":[],"updraft_encryptionphrase":"","updraft_restorer_wpcore_includewpconfig":false,"updraft_incremental_restore_point":-1}
+0000.012 () Will not delete any archives after unpacking them, because there was no cloud storage for this backup
+0000.014 () Entity: db
+0000.014 () restore_backup(backup_file=backup_2020-11-01-0508_Portuguese_Association_Tourism_311c5bfb676a-db.gz, type=db, info=a:0:{}, last_one=)
+0000.014 () Unpacking backup... (backup_2020-11-01-0508_Portuguese_Association_Tourism_311c5bfb676a-db.gz, 0.3 Mb)
+0000.018 () Database successfully unpacked
+0000.018 () Restoring the database (on a large site this can take a long time - if it times out (which can happen if your web hosting company has configured your hosting to limit resources) then you should use a different method, such as phpMyAdmin)...
+0000.019 () Using direct MySQL access; value of use_mysqli is: 1
+0000.019 () SQL compatibility mode is: NO_AUTO_VALUE_ON_ZERO,NO_ZERO_IN_DATE,ERROR_FOR_DIVISION_BY_ZERO,NO_ENGINE_SUBSTITUTION
+0000.037 () Max packet size: 32 MB
+0000.037 () Entering maintenance mode
+0000.037 () Enabling Maintenance mode&#8230;
+0000.041 () Backup of: https://portuguese-association-tourism.com
+0000.060 () Content URL: https://portuguese-association-tourism.com/wp-content
+0000.061 () Uploads URL: https://portuguese-association-tourism.com/wp-content/uploads
+0000.061 () Old table prefix: wp_
+0000.061 () Site information: multisite=0
+0000.061 () Skipped tables: wpyt_commentmeta, wpyt_comments, wpyt_links, wpyt_options, wpyt_postmeta, wpyt_posts, wpyt_term_relationships, wpyt_term_taxonomy, wpyt_termmeta, wpyt_terms, wpyt_usermeta, wpyt_users
+0000.062 () New table prefix: wp_
+0000.071 () Processing table (InnoDB): wp_options
+0000.150 () Restoring prior UD configuration (table: wp_options; keys: 97)
+0000.345 () Processing table (InnoDB): wp_users
+0000.367 () Processing table (InnoDB): wp_usermeta
+0000.384 () Processing table (InnoDB): wp_commentmeta
+0000.397 () Processing table (InnoDB): wp_comments
+0000.420 () Processing table (InnoDB): wp_links
+0000.433 () Processing table (InnoDB): wp_postmeta
+0000.511 () Processing table (InnoDB): wp_posts
+0000.577 () Processing table (InnoDB): wp_term_relationships
+0000.595 () Processing table (InnoDB): wp_term_taxonomy
+0000.613 () Processing table (InnoDB): wp_termmeta
+0000.630 () Processing table (InnoDB): wp_terms
+0000.642 () Unlocking database and leaving maintenance mode
+0000.642 () Disabling Maintenance mode&#8230;
+0000.643 () Finished: lines processed: 42 in 0.62 seconds
+0000.643 () Cleaning up rubbish...
+0000.649 () Entity: plugins
+0000.649 () restore_backup(backup_file=backup_2020-11-01-0508_Portuguese_Association_Tourism_311c5bfb676a-plugins.zip, type=plugins, info=a:2:{s:4:"path";s:60:"/Users/ecosync/Local Sites/cch/app/public/wp-content/plugins";s:11:"description";s:7:"Plugins";}, last_one=)
+0000.649 () Unpacking backup... (backup_2020-11-01-0508_Portuguese_Association_Tourism_311c5bfb676a-plugins.zip, 13.2 MB)
+0000.651 () Unzipping backup_2020-11-01-0508_Portuguese_Association_Tourism_311c5bfb676a-plugins.zip to /Users/ecosync/Local Sites/cch/app/public/wp-content/upgrade/d5b208b9/ using UpdraftPlus_ZipArchive, starting index 0
+0001.855 () Unzip progress: 1002 out of 3451 files (11.6 MB, plugins/members/addons/members-role-hierarchy/contributing.md)
+0002.392 () Unzip progress: 2003 out of 3451 files (18.6 MB, plugins/updraftplus/css/tether-shepherd/shepherd-theme-square-dark.min.css)
+0002.975 () Unzip progress: 3004 out of 3451 files (40.8 MB, plugins/manual-image-crop/languages/microp.pot)
+0003.168 () Unzip progress: 3451 out of 3451 files (42.3 MB, plugins/polylang-pro/vendor/wpsyntex/polylang/js/block-editor.min.js)
+0003.178 () Moving old data: filesystem method / updraft_dir is potentially possible
+0003.179 () Moving old data: can potentially use wp_filesystem method / -old
+0003.179 () Moving old data out of the way...
+0004.111 () Top-level entities being moved: advanced-custom-fields, index.php, updraftplus
+0004.112 () Moving unpacked backup into place...
+0005.735 () Top-level entities being moved: mailchimp-for-wp, advanced-custom-fields, index.php, akismet, all-in-one-wp-migration, polylang, polylang-pro, regenerate-thumbnails, contact-form-7, wp-migrate-db, updraftplus, manual-image-crop, members
+0005.739 () Cleaning up rubbish...
+0005.743 () Entity: themes
+0005.743 () restore_backup(backup_file=backup_2020-11-01-0508_Portuguese_Association_Tourism_311c5bfb676a-themes.zip, type=themes, info=a:2:{s:4:"path";s:59:"/Users/ecosync/Local Sites/cch/app/public/wp-content/themes";s:11:"description";s:6:"Themes";}, last_one=1)
+0005.743 () Unpacking backup... (backup_2020-11-01-0508_Portuguese_Association_Tourism_311c5bfb676a-themes.zip, 48.7 MB)
+0005.744 () Unzipping backup_2020-11-01-0508_Portuguese_Association_Tourism_311c5bfb676a-themes.zip to /Users/ecosync/Local Sites/cch/app/public/wp-content/upgrade/4d459e02/ using UpdraftPlus_ZipArchive, starting index 0
+0009.536 () Unzip progress: 2305 out of 14927 files (2.4 KB, themes/f2blueprint/node_modules/chalk/package.json)
+0009.925 () Unzip progress: 3306 out of 14927 files (2.9 MB, themes/f2blueprint/node_modules/chalk/readme.md)
+0010.396 () Unzip progress: 4307 out of 14927 files (4.2 MB, themes/f2blueprint/node_modules/lodash/fp/xor.js)
+0010.833 () Unzip progress: 5308 out of 14927 files (9.8 MB, themes/f2blueprint/node_modules/minimist/test/stop_early.js)
+0011.579 () Unzip progress: 6309 out of 14927 files (15.2 MB, themes/f2blueprint/node_modules/@babel/helper-replace-supers/lib/index.js)
+0012.188 () Unzip progress: 7310 out of 14927 files (24 MB, themes/f2blueprint/node_modules/webpack-dev-server/node_modules/semver/bin/semver.js)
+0012.722 () Unzip progress: 8311 out of 14927 files (29.2 MB, themes/f2blueprint/node_modules/es-abstract/5/ToUint16.js)
+0013.301 () Unzip progress: 9312 out of 14927 files (34.4 MB, themes/f2blueprint/node_modules/css-tree/lib/walker/create.js)
+0013.828 () Unzip progress: 10313 out of 14927 files (42.3 MB, themes/f2blueprint/node_modules/postcss-selector-parser/dist/selectors/pseudo.js)
+0014.412 () Unzip progress: 11314 out of 14927 files (47.7 MB, themes/f2blueprint/node_modules/postcss-calc/package.json)
+0014.907 () Unzip progress: 12315 out of 14927 files (50.4 MB, themes/f2blueprint/node_modules/regenerate-unicode-properties/Script_Extensions/Old_North_Arabian.js)
+0015.571 () Unzip progress: 13316 out of 14927 files (55.9 MB, themes/f2blueprint/node_modules/webpack/lib/dependencies/RequireEnsurePlugin.js)
+0016.119 () Unzip progress: 14317 out of 14927 files (58.8 MB, themes/f2blueprint/node_modules/caniuse-lite/data/features/css-font-rendering-controls.js)
+0016.710 () Unzip progress: 14927 out of 14927 files (89.9 MB, themes/f2blueprint/images/portuguese-banner.png)
+0016.729 () Moving old data: filesystem method / updraft_dir is potentially possible
+0016.729 () Moving old data: can potentially use wp_filesystem method / -old
+0016.730 () Moving old data out of the way...
+0016.828 () Top-level entities being moved: twentyseventeen, twentynineteen, .DS_Store, index.php, twentytwenty
+0016.830 () Moving unpacked backup into place...
+0024.161 () Top-level entities being moved: .DS_Store, index.php, f2blueprint
+0024.165 () Cleaning up rubbish...
+0024.190 () Restore successful!
+0024.191 () Restore successful
